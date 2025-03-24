@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Suse", Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #024;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-bottom: solid 5px #f2f2f2;
+}
+
+#headerNav {
+  background-color: #fff;
+  color: #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#headerNav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#playerInfo h2{
+font-size: 26px;
+color: #151515;
+border-bottom: 1px solid #ccc;
+max-width: 1200px;
+margin:auto;
+}
+
+#headerNav button a{
+display: flex;
+}
+
+#headerNav span {
+display: flex;
+align-items: center;
+}
+
+#headerNav img {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+#footer {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  line-height: 2.5rem;
+  border-top: 8px solid #fb4f14;
+}
+
+#resourcesBtn {
+  font-size: 1rem;
+  color: white;
+}
+
+#footerNav {
+  display: inline-flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+#denver img {
+  vertical-align: middle;
+  max-width: 30px;
+  line-height: 2.5rem;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+#resources img {
+  vertical-align: middle;
+  max-width: 20px;
+  line-height: 2.5rem;
+  padding-bottom: 3px;
+  padding-right: 5px;
+}
+
+#nfl img {
+  vertical-align: middle;
+  max-width: 20px;
+  line-height: 2.5rem;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#team h2 {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-size: 50px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #f2f2f2;
+  font-size: 30px;
+}
+
+.suse-font {
+  font-family: "SUSE", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#schedule div {
+  animation: fadeIn 0.5s;
+  max-width: 1080px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+#season {
+  margin: auto;
+  max-width: 1200px;
+  text-align: left;
+}
+
+#teamStats {
+  margin: auto;
+  max-width: 1200px;
+}
+
+#teamStats h2 {
+  font-size: 26px;
+  color: #151515;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  padding: 5px;
+}
+
+.vs {
+  margin: 0 20px;
+}
